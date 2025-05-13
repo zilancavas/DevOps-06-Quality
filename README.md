@@ -30,3 +30,27 @@
 | 24 | Das Quality Gate wurde als „Passed“ angezeigt. | ![quality-24](./images/quality-24.png) |
 | 25 | Das Ergebnis der Analyse für das Frontend wurde im SonarQube-Dashboard angezeigt – das Quality Gate wurde bestanden. | ![quality-25](./images/quality-25.png) |
 | 26 | Zuletzt habe ich dann in der Selenium IDE wurde einen automatisierten Test aufgezeichnet. Der Test öffnet eine Website (https://example.com), setzt die Fenstergrössw auf 891×608 und klickt auf den Link „More information…“.| ![quality-27](./images/quality-27.png) |
+
+
+## Fazit
+
+Im Rahmen dieses Lernjournals habe ich zentrale Werkzeuge und Konzepte zur Sicherstellung von Softwarequalität kennengelernt und praktisch angewendet. Besonders im Fokus standen **statische Codeanalyse mit SonarQube**, **lokale Qualitätstools wie HTMLHint** sowie **automatisierte Tests mit Selenium IDE**.
+Einige Arbeitsschritte erwiesen sich als herausfordernd – insbesondere:
+- Die **Konfiguration von SonarQube** und die richtige Übergabe aller benötigten Parameter an den `sonar-scanner` (z. B. `sonar.token`, `sonar.sources`, `sonar.java.binaries`) war nicht auf Anhieb intuitiv.
+- Auch das erste Setup mit dem **Quality Gate**, das beim ersten Durchlauf fehlschlug, erforderte gezielte Anpassungen im Code.
+- Die **Synchronisation mit GitHub** sowie Push-Fehler mussten durch `git pull --rebase` aufgelöst werden.
+
+Trotz dieser Herausforderungen konnte ich wichtige Erkenntnisse gewinnen:
+- **Qualitätssicherung ist nicht nur ein finaler Schritt, sondern ein integraler Bestandteil** des gesamten Entwicklungsprozesses.
+- Tools wie SonarQube helfen dabei, **technische Schulden frühzeitig zu erkennen** und gezielt zu beheben.
+- **Automatisierte Tests mit Selenium IDE** bieten einen einfachen Einstieg in die Testautomatisierung und ermöglichen auch ohne tiefes Programmierwissen die Simulation von Benutzerinteraktionen.
+
+Insgesamt hat dieses Lernjournal meine Fähigkeiten zur **Qualitätssicherung im DevOps-Kontext** deutlich gestärkt und mir einen praxisnahen Einblick in professionelle Analyse- und Testmethoden vermittelt.
+
+## Praxisbezug
+
+In meinem Berufsalltag bin ich als Softwareentwicklerin im ABAP-Bereich tätig und damit in der SAP-Entwicklung verankert. Auch dort ist die Qualität des Codes ein zentrales Thema. Allerdings erfolgen die Qualitätskontrollen aktuell manuell: Ich prüfe den Code eigenständig in der Entwicklungsumgebung und achte auf Lesbarkeit, Struktur, Wiederverwendbarkeit und Einhaltung von Konventionen. Das Arbeiten mit SonarQube im Rahmen dieses Lernjournals hat mir einen wertvollen Einblick in automatisierte Qualitätssicherung gegeben. Besonders beeindruckend war, wie schnell und strukturiert Schwachstellen, Code Smells oder Verstösse gegen Standards erkannt und dargestellt werden.
+
+
+
+
