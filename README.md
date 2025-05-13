@@ -29,5 +29,4 @@
 | 23 | Die Analyse des Frontends war erfolgreich – erneut wurde „EXECUTION SUCCESS“ gemeldet. | ![quality-23](./images/quality-23.png) |
 | 24 | Das Quality Gate wurde als „Passed“ angezeigt. | ![quality-24](./images/quality-24.png) |
 | 25 | Das Ergebnis der Analyse für das Frontend wurde im SonarQube-Dashboard angezeigt – das Quality Gate wurde bestanden. | ![quality-25](./images/quality-25.png) |
-| 26 | Es wurde ein neues Projekt in Selenium IDE erstellt mit dem Namen `SeleniumTest`. | ![quality-26](./images/quality-26.png) |
-| 27 | Zuletzt habe ich dann in der Selenium IDE wurde einen automatisierten Test aufgezeichnet. Der Test öffnet eine Website (https://example.com), setzt die Fenstergrössw auf 891×608 und klickt auf den Link „More information…“.| ![quality-27](./images/quality-27.png) |
+| 26 | Zuletzt habe ich dann in der Selenium IDE wurde einen automatisierten Test aufgezeichnet. Der Test öffnet eine Website (https://example.com), setzt die Fenstergrössw auf 891×608 und klickt auf den Link „More information…“.| ![quality-27](./images/quality-27.png) |
